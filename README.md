@@ -1,8 +1,8 @@
 # William Ferreira Leandro - Portfólio
 
-Bem-vindo ao meu portfólio no GitHub! Sou William Ferreira Leandro, engenheiro de dados com mais de 20 anos de experiência em tecnologia da informação, especializado em plataformas de dados, deploy de modelos de machine learning e redes neurais.
+Bem-vindo ao meu portfólio no GitHub! Sou William Ferreira Leandro, Estatístico e com Mestrado em Andamento em Redes Neurais e Visão Computacional com mais de 15 anos de experiência em tecnologia da informação, especializado em plataformas de dados, deploy de modelos de machine learning e redes neurais.
 
-Este repositório é dedicado aos meus trabalhos com Redes Neurais, destacando projetos desenvolvidos em PyTorch e outras ferramentas avançadas de aprendizado profundo.
+Este repositório é dedicado aos meus trabalhos com Redes Neurais, destacando projetos desenvolvidos em PyTorch, TensorFlow, Yolo e outras ferramentas avançadas de aprendizado profundo.
 
 ---
 
