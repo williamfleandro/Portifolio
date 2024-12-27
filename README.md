@@ -18,31 +18,33 @@ Atualmente, sou estudante de mestrado em Inteligência Artificial, com foco em r
 - **Descrição:** Modelo de CNN para classificação de imagens utilizando PyTorch, implementado para identificar objetos em um conjunto de dados de imagens públicas.
 - **Tecnologias:** Python, PyTorch, Matplotlib, Pandas.
 - **Destaques:**
-  - Treinamento e validação com alta acurácia (>90%).
+  - Treinamento e validação com alta acurácia (>98%).
   - Técnicas de aumento de dados e regularização para evitar overfitting.
-  - Repositório: [Link para o projeto](#)
+  - Repositório: [Link para o projeto](https://github.com/williamfleandro/Portifolio/blob/main/Trabalho%2005_MNIST_DeepLayerWiseTraining_Metodo%20(William_Ferreira_Leandro).ipynb)
 
-### 2. **Detecção de Fraude com Redes Neurais Artificiais (ANN)**
-- **Descrição:** Modelo de rede neural densa (ANN) para identificar transações fraudulentas em grandes volumes de dados financeiros.
-- **Tecnologias:** Python, TensorFlow, Scikit-learn.
+### 2. **Data Augmentation - TensorFlow e Keras**
+- **Descrição:** Programa Criado com técnicas da Visão Computacional para geração de Imagens e criação de DataSets para treino de Redes Neurais.
+- **Tecnologias:** Python, PyTorch, Matplotlib, Pandas, TensorFlow e Keras.
 - **Destaques:**
-  - Implementação de pré-processamento de dados escaláveis.
-  - Otimização do modelo utilizando GridSearch e técnicas de dropout.
-  - Repositório: [Link para o projeto](#)
-
-### 3. **Geração de Texto com Redes Neurais Recorrentes (RNN)**
-- **Descrição:** Modelo de geração de texto com RNNs utilizando PyTorch, capaz de criar sequências coerentes com base em textos fornecidos.
-- **Tecnologias:** Python, PyTorch, NLTK.
+  - Técnicas de aumento de dados.
+  - Repositório: [Link para o projeto](https://github.com/williamfleandro/Portifolio#:~:text=Trabalho_Data_Augmentation.ipynb)
+ 
+### 3. **Previsão de numeros da Mega Sena**
+- **Descrição:** Modelo de CNN para classificação de imagens utilizando PyTorch, implementado para identificar objetos em um conjunto de dados de imagens públicas.
+- **Tecnologias:** Python, PyTorch, Matplotlib, Pandas, Sklearn, TensorFlow e Keras.
 - **Destaques:**
-  - Treinamento em datasets grandes (textos literários e notícias).
-  - Uso de embeddings customizados para melhorar a semântica das saídas.
-  - Repositório: [Link para o projeto](#)
+  - Treinamento e validação com alta acurácia (>70%).
+  - Técnicas de leitura de base histórica dos ultimos 28 anos.
+  - Repositório: [Link para o projeto](https://github.com/williamfleandro/Portifolio/blob/main/Projeto-Mega-Sena.rar)
 
+### 4. **Dentre outros projetos**
+- Dê uma olhada.
+- 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 - **Linguagens:** Python, R.
-- **Frameworks:** PyTorch, TensorFlow, Keras.
+- **Frameworks:** PyTorch, TensorFlow, Keras e Sklearn.
 - **Outras ferramentas:** Docker, GCP, AWS, Elastic Stack, Kafka Confluent.
 
 ---
