@@ -54,7 +54,7 @@ Meu objetivo é desenvolver soluções práticas e inovadoras utilizando Redes N
 
 ## 📫 Contato
 - **Email:** william@example.com
-- **LinkedIn:** [Seu LinkedIn](#)
-- **GitHub:** [Seu GitHub](https://github.com/seu-usuario)
+- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/william-ferreira-leandro-5b75a925/)
+- **GitHub:** [Seu GitHub](https://github.com/seu-usuario](https://github.com/williamfleandro/Portifolio.git)
 
 Obrigado por visitar meu portfólio! 🚀
