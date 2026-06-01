@@ -45,14 +45,17 @@ Este repositório funciona como um **hub central** para meus principais projetos
 
 | Projeto | Descrição | Tecnologias | Status |
 |---|---|---|---|
-| [MLOps Apartment Price Prediction](https://github.com/williamfleandro/portifolio_mlops) | Pipeline MLOps completo para previsão de preço de apartamentos, com treinamento, registry, deploy, monitoramento, drift e retreinamento. | Python, Scikit-learn, MLflow, MinIO, FastAPI, React, Docker, Kubernetes, Argo CD, Prometheus, Grafana, Evidently AI | Destaque principal |
-| [LLMOps Agentic Engineering Lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab) | Laboratório de engenharia de agentes, quality gates, testes automatizados e API educacional em FastAPI para resolução matemática. | Python, FastAPI, Pytest, Ruff, GitHub Actions, Agentic Engineering | Destaque |
-| [DVC Portfolio](https://github.com/williamfleandro/portifolio_dvc) | Estudos e laboratório de versionamento de dados e experimentos com DVC. | Python, DVC, Git, MLOps | Em evolução |
-| Computer Vision para classificação de resíduos eletrônicos | Projeto acadêmico de visão computacional para classificação de componentes eletrônicos usando CNNs, Transformers e YOLO11. | Python, YOLO11, PyTorch, Ultralytics, Computer Vision, Explainable AI | Em documentação |
-| Kafka, OpenTelemetry e Observabilidade | Arquiteturas e laboratórios envolvendo ingestão de eventos, traces, métricas, logs e integração com plataformas de observabilidade. | Kafka, IBM Event Streams, OpenTelemetry, Elasticsearch, OpenSearch, Grafana, Prometheus | Em documentação |
-| Graylog + OpenSearch + MongoDB Lab | Ambiente de laboratório para centralização de logs, indexação, retenção e análise operacional. | Graylog, OpenSearch, MongoDB, Docker, Linux | Em documentação |
-| Databricks no GCP | Estudos e práticas de analytics, processamento de dados e integração com ambiente cloud. | Databricks, GCP, SQL, Python, Data Engineering | Em documentação |
-
+| Hub principal | [Portifolio](https://github.com/williamfleandro/Portifolio) | Página central para organizar projetos, trilhas técnicas e documentação profissional. |
+| Agentic AI / LLMOps | [multi-agent-paper-assistant](https://github.com/williamfleandro/multi-agent-paper-assistant) | Sistema multiagente para leitura, análise e sumarização de artigos científicos. |
+| MLOps | [portifolio_mlops](https://github.com/williamfleandro/portifolio_mlops) | Pipeline completo de MLOps com MLflow, FastAPI, Kubernetes, Argo CD e monitoramento. |
+| Agentic Engineering | [llmops-agentic-engineering-lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab) | Laboratório de engenharia de agentes, testes e quality gates. |
+| Data Versioning | [portifolio_dvc](https://github.com/williamfleandro/portifolio_dvc) | Estudos de versionamento de dados e experimentos com DVC. |
+| Model Monitoring | [nannyml](https://github.com/williamfleandro/nannyml) | Laboratório de monitoramento de modelos e detecção de drift. |
+| Observabilidade / Elastic | [elastic](https://github.com/williamfleandro/elastic) | Estudos e práticas com Elastic Stack, indexação e observabilidade. |
+| MBA / Engenharia de Software | [ProjetosMBAFullCycle](https://github.com/williamfleandro/ProjetosMBAFullCycle) | Projetos acadêmicos e práticos de engenharia de software e arquitetura. |
+| CI/CD | [Curso_CI_2](https://github.com/williamfleandro/Curso_CI_2) | Estudos de integração contínua, entrega contínua e automação de pipelines. |
+| MLOps Study | [mlops-alura](https://github.com/williamfleandro/mlops-alura) | Estudos iniciais e práticas relacionadas a MLOps. |
+| Python | [Python](https://github.com/williamfleandro/Python) | Exercícios, scripts e estudos gerais em Python. |
 ---
 
 ## Projeto principal de MLOps
