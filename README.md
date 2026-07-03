@@ -52,6 +52,8 @@ Este repositório funciona como um **hub central** para meus principais projetos
 |---|---|---|---|---|
 | Hub principal | [Portifolio](https://github.com/williamfleandro/Portifolio) | Página central para organizar projetos, trilhas técnicas e documentação profissional. | Markdown, documentação técnica | Ativo |
 | Databricks MLOps Churn Lab | [databricks-mlops-churn-lab](https://github.com/williamfleandro/databricks-mlops-churn-lab) | Pipeline production-like de churn com Lakehouse, Feature Store, MLflow, Model Serving, Drift Monitoring, Approval Gate, Canary Deployment e CI/CD. | Databricks, Unity Catalog, MLflow, GitHub Actions, XGBoost, LightGBM | Destaque |
+| Databricks Banking Credit Risk | [databricks-banking-credit-risk](https://github.com/williamfleandro/databricks-banking-credit-risk) | Pipeline MLOps para avaliação de risco de crédito bancário, com arquitetura Lakehouse, engenharia de atributos, treinamento, governança, registro de modelos e promoção entre ambientes. | Databricks, Delta Lake, Unity Catalog, MLflow, Scikit-learn, Databricks Asset Bundles | Destaque |
+| Databricks Banking Fraud Detection | [databricks-banking-fraud-detection](https://github.com/williamfleandro/databricks-banking-fraud-detection) | Solução MLOps end-to-end para detecção de fraude bancária com Bronze/Silver/Gold, Data Quality, Feature Table, treinamento multi-modelo, drift, batch inference e Model Serving REST em DEV, ACC e PROD. | Databricks, Unity Catalog, MLflow, Random Forest, Model Serving, GitHub Actions | Destaque |
 | Agentic AI / LLMOps | [multi-agent-paper-assistant](https://github.com/williamfleandro/multi-agent-paper-assistant) | Sistema multiagente para leitura, análise e sumarização de artigos científicos. | Python, FastAPI, agentes, LLMOps | Ativo |
 | MLOps | [portifolio_mlops](https://github.com/williamfleandro/portifolio_mlops) | Pipeline completo de MLOps com MLflow, FastAPI, Kubernetes, Argo CD e monitoramento. | MLflow, FastAPI, Kubernetes, Argo CD | Ativo |
 | Agentic Engineering | [llmops-agentic-engineering-lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab) | Laboratório de engenharia de agentes, testes e quality gates. | Python, agentes, testes, guardrails | Ativo |
@@ -146,6 +148,97 @@ PROD → governança com Drift Approval Gate e aprovação manual
 
 Esse projeto demonstra uma arquitetura MLOps próxima de um ambiente enterprise real, com rastreabilidade, governança, separação de ambientes, automação e controle de risco operacional.
 
+### Projetos bancários em Databricks
+
+#### Banking Credit Risk
+
+Repositório: <https://github.com/williamfleandro/databricks-banking-credit-risk>
+
+Projeto voltado à avaliação de risco de crédito bancário, estruturado como uma esteira de Machine Learning em Databricks. O repositório demonstra organização por ambientes, engenharia de dados, Feature Engineering, treinamento, avaliação, registro e governança de modelos.
+
+Principais capacidades demonstradas:
+
+- arquitetura Lakehouse com Delta Lake;
+- governança e rastreabilidade com Unity Catalog;
+- preparação de dados e atributos para risco de crédito;
+- treinamento e comparação de modelos de classificação;
+- rastreamento de experimentos com MLflow;
+- registro e versionamento de modelos;
+- automação com Databricks Asset Bundles;
+- separação de ambientes para evolução controlada;
+- documentação técnica orientada a portfólio.
+
+#### Banking Fraud Detection
+
+Repositório: <https://github.com/williamfleandro/databricks-banking-fraud-detection>
+
+Projeto MLOps completo para detecção de fraudes em transações bancárias, validado de ponta a ponta nos ambientes `DEV`, `ACC` e `PROD`.
+
+Fluxo implementado:
+
+```text
+Kaggle Dataset
+  ↓
+Unity Catalog Volume
+  ↓
+Bronze
+  ↓
+Silver
+  ↓
+Data Quality / Quarantine
+  ↓
+Gold
+  ↓
+Feature Engineering
+  ↓
+Feature Table no Unity Catalog
+  ↓
+Treinamento multi-modelo
+  ↓
+MLflow Tracking
+  ↓
+Seleção do melhor modelo
+  ↓
+Batch Inference
+  ↓
+Model Registry
+  ↓
+Model Serving REST
+  ↓
+DEV → ACC → PROD
+```
+
+Principais resultados:
+
+- melhor modelo: `RandomForest`;
+- F1-score: `0.824242`;
+- recall: `0.715789`;
+- `284.807` registros ingeridos na camada Bronze;
+- `283.726` registros processados nas camadas Silver, Gold e Feature Table;
+- Data Quality concluído com `0` registros em quarentena;
+- monitoramento com `34 OK`, `0 WARNING` e `0 DRIFT`;
+- batch inference com `283.726` predições;
+- endpoints de Model Serving validados em DEV, ACC e PROD;
+- API REST de produção validada com HTTP `200`;
+- wrapper MLflow PyFunc retornando `prediction`, `probability_fraud` e `risk_level`;
+- CI/CD e deployment com Databricks Asset Bundles.
+
+Exemplo de resposta da API em produção:
+
+```json
+{
+  "predictions": [
+    {
+      "prediction": 1,
+      "probability_fraud": 0.7916666666666666,
+      "risk_level": "high"
+    }
+  ]
+}
+```
+
+Esses dois projetos complementam o Databricks MLOps Churn Lab e ampliam o portfólio com casos bancários de alto valor: **risco de crédito** e **prevenção a fraudes**.
+
 ### Projeto complementar de MLOps
 
 O projeto **MLOps Apartment Price Prediction** continua sendo uma referência complementar no portfólio, demonstrando um ciclo completo de Machine Learning com stack open source:
@@ -182,6 +275,8 @@ Portfólio Técnico
 ├── Ciência de Dados e Machine Learning
 │   ├── Modelagem estatística
 │   ├── Regressão, classificação e validação
+│   ├── Risco de crédito bancário
+│   ├── Detecção de fraude bancária
 │   ├── Feature engineering
 │   └── Avaliação de modelos
 │
@@ -234,13 +329,15 @@ Portifolio/
 │
 ├── projects/
 │   ├── 01-databricks-mlops-churn-lab/
-│   ├── 02-mlops-apartment-price/
-│   ├── 03-llmops-agentic-engineering/
-│   ├── 04-computer-vision-ewaste-yolo11/
-│   ├── 05-kafka-observability-opensearch/
-│   ├── 06-graylog-opensearch-lab/
-│   ├── 07-databricks-gcp-analytics/
-│   └── 08-dvc-data-versioning/
+│   ├── 02-databricks-banking-credit-risk/
+│   ├── 03-databricks-banking-fraud-detection/
+│   ├── 04-mlops-apartment-price/
+│   ├── 05-llmops-agentic-engineering/
+│   ├── 06-computer-vision-ewaste-yolo11/
+│   ├── 07-kafka-observability-opensearch/
+│   ├── 08-graylog-opensearch-lab/
+│   ├── 09-databricks-gcp-analytics/
+│   └── 10-dvc-data-versioning/
 │
 ├── archive/
 │   ├── academic-neural-networks/
@@ -339,10 +436,12 @@ Portifolio/
 Para recrutadores e gestores técnicos:
 
 1. Comece pelo projeto [Databricks MLOps Churn Lab](https://github.com/williamfleandro/databricks-mlops-churn-lab), que demonstra Lakehouse, Feature Store, MLflow, Model Serving, Drift Monitoring, Approval Gate e CI/CD.
-2. Em seguida, veja o projeto [MLOps Apartment Price Prediction](https://github.com/williamfleandro/portifolio_mlops), com stack open source usando FastAPI, Kubernetes, Argo CD, Prometheus e Grafana.
-3. Depois, consulte o laboratório [LLMOps Agentic Engineering Lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab).
-4. Consulte os projetos de Visão Computacional, Kafka, Observabilidade e OpenSearch conforme o foco da vaga.
-5. Acesse a pasta `archive/` apenas para projetos acadêmicos antigos, estudos e experimentos.
+2. Analise o projeto [Databricks Banking Fraud Detection](https://github.com/williamfleandro/databricks-banking-fraud-detection), validado em DEV, ACC e PROD com Data Quality, Feature Table, drift, batch inference e API REST.
+3. Consulte o projeto [Databricks Banking Credit Risk](https://github.com/williamfleandro/databricks-banking-credit-risk), voltado à modelagem e governança de risco de crédito bancário.
+4. Em seguida, veja o projeto [MLOps Apartment Price Prediction](https://github.com/williamfleandro/portifolio_mlops), com stack open source usando FastAPI, Kubernetes, Argo CD, Prometheus e Grafana.
+5. Depois, consulte o laboratório [LLMOps Agentic Engineering Lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab).
+6. Consulte os projetos de Visão Computacional, Kafka, Observabilidade e OpenSearch conforme o foco da vaga.
+7. Acesse a pasta `archive/` apenas para projetos acadêmicos antigos, estudos e experimentos.
 
 ---
 
@@ -362,10 +461,16 @@ Este portfólio foi organizado para demonstrar capacidade prática em:
 
 ## Destaque para recrutadores
 
-Projeto recomendado para avaliação técnica:
+Projetos recomendados para avaliação técnica:
 
-**Databricks MLOps Churn Lab**  
-Repositório: <https://github.com/williamfleandro/databricks-mlops-churn-lab>
+1. **Databricks MLOps Churn Lab**  
+   Repositório: <https://github.com/williamfleandro/databricks-mlops-churn-lab>
+2. **Databricks Banking Fraud Detection**  
+   Repositório: <https://github.com/williamfleandro/databricks-banking-fraud-detection>
+3. **Databricks Banking Credit Risk**  
+   Repositório: <https://github.com/williamfleandro/databricks-banking-credit-risk>
+
+### Databricks MLOps Churn Lab
 
 Este projeto demonstra uma arquitetura MLOps production-like com:
 
@@ -387,6 +492,42 @@ Este projeto demonstra uma arquitetura MLOps production-like com:
 Resumo profissional:
 
 > Implementei uma arquitetura MLOps production-like em Databricks, usando Lakehouse com camadas Bronze, Silver e Gold, Data Quality Gate, Feature Table formal no Unity Catalog, treinamento multi-modelo com Logistic Regression, Random Forest, Gradient Boosting, XGBoost e LightGBM, rastreamento com MLflow, registro de modelo no Unity Catalog Model Registry, inferência batch, Model Serving REST, Champion/Challenger, Canary Deployment, Drift Monitoring com PSI, decisão de retreinamento, Drift Approval Gate com aprovação manual em produção e CI/CD com GitHub Actions e Databricks Asset Bundles.
+
+### Databricks Banking Fraud Detection
+
+Este projeto demonstra uma solução MLOps bancária end-to-end com:
+
+- Lakehouse em Bronze, Silver e Gold;
+- Data Quality e quarentena;
+- Feature Table no Unity Catalog;
+- treinamento e seleção multi-modelo;
+- MLflow Tracking e Model Registry;
+- batch inference;
+- Drift Monitoring e decisão de retreinamento;
+- Champion/Challenger e rollback;
+- Model Serving REST;
+- validação completa em DEV, ACC e PROD;
+- endpoint de produção respondendo HTTP `200`.
+
+Resumo profissional:
+
+> Implementei uma plataforma MLOps para detecção de fraude bancária em Databricks, cobrindo ingestão, qualidade, Feature Engineering, treinamento multi-modelo, MLflow, Model Registry, batch inference, monitoramento de drift e Model Serving REST. A solução foi promovida e validada nos ambientes DEV, ACC e PROD, com API de produção operacional e rastreabilidade completa via Unity Catalog e Databricks Asset Bundles.
+
+### Databricks Banking Credit Risk
+
+Este projeto demonstra um caso bancário de avaliação de risco de crédito com:
+
+- preparação e transformação de dados;
+- engenharia de atributos;
+- modelagem estatística e Machine Learning;
+- rastreamento com MLflow;
+- governança de artefatos;
+- organização por ambientes;
+- automação de deployment com Databricks Asset Bundles.
+
+Resumo profissional:
+
+> Desenvolvi uma esteira de Machine Learning para risco de crédito bancário em Databricks, aplicando arquitetura Lakehouse, Feature Engineering, treinamento e avaliação de modelos, MLflow e governança com Unity Catalog, com foco em reprodutibilidade, automação e evolução controlada entre ambientes.
 
 ---
 
