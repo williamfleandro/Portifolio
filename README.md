@@ -1,167 +1,82 @@
-William Ferreira Leandro — Technical Portfolio
+# William Ferreira Leandro — Technical Portfolio
+
 ![Python](https://img.shields.io/badge/Python-Data%20Science-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models%20%26%20Analytics-success)
 ![MLOps](https://img.shields.io/badge/MLOps-MLflow%20%7C%20FastAPI%20%7C%20Kubernetes-orange)
-![LLMOps](https://img.shields.io/badge/LLMOps-LangChain%20%7C%20LangSmith-purple)
 ![Kafka](https://img.shields.io/badge/Kafka-Event%20Streaming-black)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch%20%7C%20OpenSearch-Observability-yellow)
 ![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20GCP%20%7C%20Azure-lightgrey)
 ![Databricks](https://img.shields.io/badge/Databricks-Lakehouse%20%7C%20MLOps-red)
+![Unity Catalog](https://img.shields.io/badge/Unity%20Catalog-Feature%20Store-purple)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions%20%7C%20Databricks%20Bundles-blueviolet)
-Portfólio profissional de projetos em Engenharia de IA, Ciência de Dados, Machine Learning, MLOps, LLMOps, RAG, Engenharia de Software, Databricks Lakehouse, Visão Computacional, Engenharia de Dados, Kafka, Elasticsearch/OpenSearch, observabilidade e Cloud.
-Sou Estatístico e Engenheiro de IA, especialista em plataformas de dados, inteligência artificial aplicada e ambientes corporativos de alta criticidade. Minha experiência inclui Python, SQL, Machine Learning, Databricks, MLflow, FastAPI, Docker, Kubernetes, OpenShift, GitHub Actions, Kafka, IBM Event Streams, Elasticsearch, OpenSearch, LangChain, LangSmith, PostgreSQL, pgvector e Cloud.
-Este repositório funciona como um hub central para meus principais projetos técnicos, acadêmicos e profissionais.
+
+Portfólio profissional de projetos em **Ciência de Dados, Machine Learning, MLOps, LLMOps, Databricks Lakehouse, Feature Store, Visão Computacional, Engenharia de Dados, Observabilidade, Kafka, Elasticsearch/OpenSearch e Cloud**.
+
+Sou **Estatístico**, especialista em plataformas de dados, observabilidade e inteligência artificial aplicada, com experiência em ambientes corporativos de alta criticidade utilizando **Python, SQL, Machine Learning, Databricks, Unity Catalog, Feature Store, MLflow, FastAPI, Docker, Kubernetes, OpenShift, Argo CD, GitHub Actions, Kafka/Event Streams, Elasticsearch, OpenSearch, Grafana, Prometheus, Power BI e Cloud**.
+
+Este repositório funciona como um **hub central** para meus principais projetos técnicos, laboratórios, estudos acadêmicos e implementações práticas.
+
 ---
-Navegação rápida
-Áreas de atuação
-Projetos em destaque
-Projetos do MBA em Engenharia de Software com IA
-Projeto principal de MLOps
-Stack técnica
-Contato
+
+## Navegação rápida
+
+- [Áreas de atuação](#áreas-de-atuação)
+- [Projetos em destaque](#projetos-em-destaque)
+- [Projeto principal de MLOps](#projeto-principal-de-mlops)
+- [Visão de arquitetura do portfólio](#visão-de-arquitetura-do-portfólio)
+- [Stack técnica](#stack-técnica)
+- [Como navegar pelo portfólio](#como-navegar-pelo-portfólio)
+- [Contato](#contato)
+
 ---
-Áreas de atuação
-Engenharia de IA e aplicações baseadas em LLMs
-RAG, embeddings, busca vetorial e recuperação semântica
-Prompt Engineering, avaliação de prompts e LLMOps
-Agentes de IA, Skills e automação de workflows
-Ciência de Dados e Machine Learning
-MLOps e ciclo de vida de modelos em produção
-Databricks Lakehouse, Unity Catalog e Feature Store
-CI/CD para IA e Machine Learning
-Arquitetura de software e modernização de sistemas legados
-Engenharia de Dados e arquiteturas orientadas a eventos
-Kafka, IBM Event Streams, Elasticsearch e OpenSearch
-Kubernetes, OpenShift, Argo CD e observabilidade
-Visão Computacional, Deep Learning e Explainable AI
+
+## Áreas de atuação
+
+- Ciência de Dados e Machine Learning
+- MLOps e ciclo de vida de modelos em produção
+- Databricks Lakehouse, Unity Catalog e Feature Store
+- CI/CD para MLOps com GitHub Actions e Databricks Asset Bundles
+- LLMOps e Agentic Engineering
+- Visão Computacional e Deep Learning
+- Engenharia de Dados e pipelines analíticos
+- Kafka, IBM Event Streams e arquiteturas orientadas a eventos
+- Elasticsearch, OpenSearch, Graylog e observabilidade
+- Kubernetes, OpenShift, Argo CD e GitOps
+- Dashboards executivos, BI e análise exploratória
+
 ---
-Projetos em destaque
-Projeto	Repositório	Descrição	Tecnologias	Status
-Databricks MLOps Churn Lab	databricks-mlops-churn-lab	Pipeline production-like de churn com Lakehouse, Feature Store, MLflow, Model Serving, Drift Monitoring, Approval Gate, Canary Deployment e CI/CD.	Databricks, Unity Catalog, MLflow, GitHub Actions, XGBoost, LightGBM	Destaque
-Databricks Banking Credit Risk	databricks-banking-credit-risk	Pipeline MLOps para avaliação de risco de crédito bancário, com arquitetura Lakehouse, engenharia de atributos, registro e governança de modelos.	Databricks, Delta Lake, Unity Catalog, MLflow, Scikit-learn	Destaque
-Databricks Banking Fraud Detection	databricks-banking-fraud-detection	Solução MLOps end-to-end para detecção de fraude, com Bronze/Silver/Gold, Data Quality, Feature Table, drift, batch inference e Model Serving REST.	Databricks, Unity Catalog, MLflow, Random Forest, GitHub Actions	Destaque
-Multi-Agent Paper Assistant	multi-agent-paper-assistant	Sistema multiagente para leitura, análise e sumarização de artigos científicos.	Python, FastAPI, agentes, LLMOps	Ativo
-MLOps Apartment Price Prediction	portifolio_mlops	Pipeline completo de MLOps com treinamento, registry, API, Kubernetes, GitOps e monitoramento.	MLflow, FastAPI, Kubernetes, Argo CD, Prometheus, Grafana	Ativo
-LLMOps Agentic Engineering Lab	llmops-agentic-engineering-lab	Laboratório de engenharia de agentes, testes, quality gates e guardrails.	Python, agentes, testes, guardrails	Ativo
-Elasticsearch e Observabilidade	elastic	Estudos e implementações com Elastic Stack, indexação, pipelines e observabilidade.	Elasticsearch, Kibana, Logstash	Ativo
+
+## Projetos em destaque
+
+| Projeto | Repositório | Descrição | Tecnologias | Status |
+|---|---|---|---|---|
+| Hub principal | [Portifolio](https://github.com/williamfleandro/Portifolio) | Página central para organizar projetos, trilhas técnicas e documentação profissional. | Markdown, documentação técnica | Ativo |
+| Databricks MLOps Churn Lab | [databricks-mlops-churn-lab](https://github.com/williamfleandro/databricks-mlops-churn-lab) | Pipeline production-like de churn com Lakehouse, Feature Store, MLflow, Model Serving, Drift Monitoring, Approval Gate, Canary Deployment e CI/CD. | Databricks, Unity Catalog, MLflow, GitHub Actions, XGBoost, LightGBM | Destaque |
+| Databricks Banking Credit Risk | [databricks-banking-credit-risk](https://github.com/williamfleandro/databricks-banking-credit-risk) | Pipeline MLOps para avaliação de risco de crédito bancário, com arquitetura Lakehouse, engenharia de atributos, treinamento, governança, registro de modelos e promoção entre ambientes. | Databricks, Delta Lake, Unity Catalog, MLflow, Scikit-learn, Databricks Asset Bundles | Destaque |
+| Databricks Banking Fraud Detection | [databricks-banking-fraud-detection](https://github.com/williamfleandro/databricks-banking-fraud-detection) | Solução MLOps end-to-end para detecção de fraude bancária com Bronze/Silver/Gold, Data Quality, Feature Table, treinamento multi-modelo, drift, batch inference e Model Serving REST em DEV, ACC e PROD. | Databricks, Unity Catalog, MLflow, Random Forest, Model Serving, GitHub Actions | Destaque |
+| Agentic AI / LLMOps | [multi-agent-paper-assistant](https://github.com/williamfleandro/multi-agent-paper-assistant) | Sistema multiagente para leitura, análise e sumarização de artigos científicos. | Python, FastAPI, agentes, LLMOps | Ativo |
+| MLOps | [portifolio_mlops](https://github.com/williamfleandro/portifolio_mlops) | Pipeline completo de MLOps com MLflow, FastAPI, Kubernetes, Argo CD e monitoramento. | MLflow, FastAPI, Kubernetes, Argo CD | Ativo |
+| Agentic Engineering | [llmops-agentic-engineering-lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab) | Laboratório de engenharia de agentes, testes e quality gates. | Python, agentes, testes, guardrails | Ativo |
+| Data Versioning | [portifolio_dvc](https://github.com/williamfleandro/portifolio_dvc) | Estudos de versionamento de dados e experimentos com DVC. | DVC, Python, ML | Estudo |
+| Observabilidade / Elastic | [elastic](https://github.com/williamfleandro/elastic) | Estudos e práticas com Elastic Stack, indexação e observabilidade. | Elasticsearch, Kibana, Logstash | Ativo |
+| RAG com LangChain, PostgreSQL e pgvector | [ProjetosMBAFullCycle](https://github.com/williamfleandro/ProjetosMBAFullCycle) | Pipeline RAG para ingestão de PDFs, geração de embeddings, busca semântica com pgvector e respostas fundamentadas no contexto recuperado. | Python, LangChain, PostgreSQL, pgvector, OpenAI, FastAPI, Docker | Concluído |
+| Design Docs Gerados por IA | [mba-ia-desafio-design-docs-com-ia](https://github.com/williamfleandro/mba-ia-desafio-design-docs-com-ia) | Geração rastreável de PRD, RFC, FDD, ADRs e matriz de evidências a partir de transcrição técnica e código-fonte. | Claude Code, ChatGPT, PRD, RFC, FDD, ADR, Markdown | Concluído |
+| StreamTube — Greenfield Project | [mba-ia-greenfield-project](https://github.com/williamfleandro/mba-ia-greenfield-project) | Plataforma de compartilhamento de vídeos com frontend Next.js, backend NestJS, autenticação, testes e PostgreSQL. | Next.js, React, TypeScript, NestJS, PostgreSQL, Docker, Jest, Vitest, Playwright | Em evolução |
+| Skill de Auditoria e Refatoração Arquitetural | [mba-ia-refactor-projects-skill](https://github.com/williamfleandro/mba-ia-refactor-projects-skill) | Skill reutilizável para auditoria, classificação de vulnerabilidades, refatoração arquitetural e validação de sistemas legados. | Claude Code, Custom Skills, Python, Flask, Node.js, Express, SQLite, MVC | Concluído |
+| Otimização e Avaliação de Prompts | [mba-ia-pull-evaluation-prompt](https://github.com/williamfleandro/mba-ia-pull-evaluation-prompt) | Pipeline de pull, versionamento, otimização, publicação e avaliação automatizada de prompts com métricas e tracing. | Python, LangChain, LangSmith, Google Gemini, PyYAML, pytest | Concluído |
+| MLOps Study | [mlops-alura](https://github.com/williamfleandro/mlops-alura) | Estudos iniciais e práticas relacionadas a MLOps. | MLOps, Python | Estudo |
+| Python | [Python](https://github.com/williamfleandro/Python) | Exercícios, scripts e estudos gerais em Python. | Python | Estudo |
+
 ---
-Projetos do MBA em Engenharia de Software com IA
-Os projetos abaixo foram desenvolvidos durante o MBA em Engenharia de Software com IA. O conjunto demonstra competências práticas em RAG, LLMOps, Prompt Engineering, arquitetura de software, desenvolvimento full stack, documentação técnica, auditoria de código, segurança e refatoração arquitetural assistida por IA.
-1. RAG com LangChain, PostgreSQL e pgvector
-Repositório: ProjetosMBAFullCycle
-Aplicação de Retrieval-Augmented Generation desenvolvida em Python para ingestão de documentos PDF, geração de embeddings, armazenamento vetorial no PostgreSQL com pgvector e recuperação semântica de contexto.
-A solução utiliza LangChain e um modelo de linguagem para responder perguntas exclusivamente com base no conteúdo recuperado, reduzindo respostas sem fundamentação. Também disponibiliza interação via terminal, API REST com FastAPI e interface web.
-Principais capacidades:
-leitura e processamento de documentos PDF;
-divisão em chunks com overlap;
-geração e persistência de embeddings;
-busca vetorial por similaridade;
-recuperação dos trechos mais relevantes;
-construção de contexto para o LLM;
-respostas controladas para perguntas fora do documento;
-API REST e execução por linha de comando;
-ambiente PostgreSQL com pgvector executado em Docker.
-Tecnologias: `Python`, `LangChain`, `PostgreSQL`, `pgvector`, `OpenAI`, `FastAPI`, `Docker`.
----
-2. Design Docs Gerados por IA
-Repositório: mba-ia-desafio-design-docs-com-ia
-Projeto de geração de documentação técnica e de produto a partir da transcrição de uma reunião e da análise de um sistema existente.
-A solução produziu um pacote completo de documentação para um sistema de webhooks, incluindo PRD, RFC, FDD, ADRs e matriz de rastreabilidade, com validação explícita das fontes para reduzir alucinações e impedir que decisões não registradas fossem apresentadas como fatos.
-Principais capacidades:
-extração de requisitos a partir de transcrições;
-análise do código-fonte existente;
-geração de PRD, RFC e FDD;
-criação de Architecture Decision Records;
-rastreabilidade entre decisões, código e reunião;
-diferenciação entre decisões confirmadas e propostas;
-revisão cruzada de consistência entre documentos;
-documentação de arquitetura orientada à implementação.
-Tecnologias e práticas: `Claude Code`, `ChatGPT`, `PRD`, `RFC`, `FDD`, `ADR`, `MADR`, `Markdown`, `Prompt Engineering`.
----
-3. StreamTube — Greenfield Project
-Repositório: mba-ia-greenfield-project
-Plataforma de compartilhamento de vídeos construída como projeto greenfield, utilizando IA no processo de planejamento e desenvolvimento.
-O projeto segue arquitetura em monorepo e integra frontend, backend, banco de dados, autenticação, testes, documentação arquitetural e infraestrutura baseada em containers. As fases iniciais de configuração e autenticação foram concluídas.
-Principais capacidades:
-frontend com Next.js e React Server Components;
-arquitetura Backend for Frontend;
-backend modular com NestJS;
-autenticação JWT com rotação de refresh token;
-cadastro, confirmação de e-mail e recuperação de senha;
-PostgreSQL com migrations;
-segurança com Argon2, rate limiting e cookies HTTP-only;
-testes unitários, integração e end-to-end;
-documentação arquitetural com C4 e Mermaid;
-ambiente local com Docker Compose.
-Tecnologias: `Next.js`, `React`, `TypeScript`, `NestJS`, `PostgreSQL`, `TypeORM`, `JWT`, `Argon2`, `Docker`, `Jest`, `Vitest`, `Playwright`, `Figma`.
----
-4. Skill de Auditoria e Refatoração Arquitetural
-Repositório: mba-ia-refactor-projects-skill
-Skill reutilizável criada para analisar, auditar, refatorar e validar aplicações legadas, reorganizando-as para uma arquitetura MVC ou equivalente.
-A solução foi validada em três aplicações diferentes: Python com Flask e SQL direto, Node.js com Express e SQLite, e Python com Flask-SQLAlchemy. A Skill detecta automaticamente a stack, identifica vulnerabilidades e code smells, gera relatório por severidade e solicita autorização antes de modificar o código.
-Principais capacidades:
-descoberta automática da arquitetura e da stack;
-detecção de vulnerabilidades, code smells e antipadrões;
-classificação de findings por severidade;
-geração de relatórios estruturados;
-gate de aprovação antes da refatoração;
-reorganização arquitetural em controllers, services e repositories;
-correção de SQL Injection, segredos hardcoded e autenticação insegura;
-eliminação de N+1 queries e operações sem transação;
-criação de testes de caracterização, segurança e regressão;
-validação incremental após a transformação.
-Resultados consolidados: foram identificados 40 findings nos três projetos analisados, distribuídos entre problemas críticos, altos, médios e baixos.
-Tecnologias e práticas: `Claude Code`, `Custom Skills`, `Python`, `Flask`, `Node.js`, `Express`, `SQLite`, `SQLAlchemy`, `MVC`, `Secure Coding`, `Automated Testing`.
----
-5. Otimização e Avaliação de Prompts com LangChain e LangSmith
-Repositório: mba-ia-pull-evaluation-prompt
-Projeto de engenharia de prompts que implementa o ciclo completo de pull, análise, otimização, publicação, avaliação automatizada e versionamento de prompts.
-O fluxo parte de um prompt inicial de baixa qualidade, aplica técnicas estruturadas de Prompt Engineering e executa avaliações sobre um dataset com 15 exemplos. A versão final foi aprovada em todas as métricas definidas.
-Principais capacidades:
-pull e push de prompts no LangSmith Prompt Hub;
-versionamento local em YAML;
-Few-shot Learning;
-Role Prompting;
-Skeleton of Thought;
-inferência funcional controlada;
-adaptação do prompt à complexidade da entrada;
-avaliação automatizada com métricas customizadas;
-tracing de execuções, tokens, custo e latência;
-testes automatizados com pytest.
-Resultados finais:
-Métrica	Resultado	Meta
-Helpfulness	0.95	0.80
-Correctness	0.88	0.80
-F1-Score	0.81	0.80
-Clarity	0.94	0.80
-Precision	0.96	0.80
-Média geral	0.9074	0.80
-Tecnologias: `Python`, `LangChain`, `LangSmith`, `Google Gemini`, `PyYAML`, `pytest`, `Prompt Engineering`.
----
-Visão consolidada dos projetos do MBA
-```text
-Projetos do MBA em Engenharia de Software com IA
-│
-├── RAG e recuperação semântica
-│   └── LangChain + PostgreSQL + pgvector
-│
-├── Engenharia e avaliação de prompts
-│   └── LangSmith + Gemini + métricas automatizadas
-│
-├── Arquitetura e documentação técnica
-│   └── PRD + RFC + FDD + ADRs + rastreabilidade
-│
-├── Desenvolvimento de aplicações
-│   └── Next.js + NestJS + PostgreSQL + Docker
-│
-└── Modernização de sistemas legados
-    └── Skills + auditoria + refatoração + testes
-```
-Esses projetos complementam minha experiência profissional e demonstram capacidade para atuar em todo o ciclo de desenvolvimento de soluções de IA: levantamento de requisitos, arquitetura, implementação, recuperação de conhecimento, avaliação, segurança, testes, documentação e evolução de sistemas.
----
-Projeto principal de MLOps
-O Databricks MLOps Churn Lab é o principal projeto MLOps production-like deste portfólio.
-Repositório: databricks-mlops-churn-lab
+
+## Projeto principal de MLOps
+
+O projeto **Databricks MLOps Churn Lab** é o principal projeto MLOps production-like deste portfólio. Ele demonstra uma arquitetura completa de Machine Learning em Databricks, cobrindo Lakehouse, governança, Feature Store formal, treinamento multi-modelo, MLflow, Model Registry, Model Serving, monitoramento de drift, aprovação manual em produção e CI/CD com GitHub Actions.
+
+Repositório: <https://github.com/williamfleandro/databricks-mlops-churn-lab>
+
+Fluxo principal:
+
 ```text
 GitHub
   ↓
@@ -177,85 +92,449 @@ Bronze / Silver / Gold
   ↓
 Data Quality Gate
   ↓
-Feature Table
+Feature Table formal no Unity Catalog
   ↓
 Treinamento multi-modelo
   ↓
-MLflow Tracking e Model Registry
+MLflow Tracking
   ↓
-Batch Inference e Model Serving REST
+Unity Catalog Model Registry
   ↓
-Champion / Challenger e Canary Deployment
+Batch Inference
   ↓
-Drift Monitoring e Retraining Decision
+Model Serving REST
   ↓
-Approval Gate e Rollback Decision
+Champion / Challenger
+  ↓
+Canary Deployment
+  ↓
+Drift Monitoring
+  ↓
+Retraining Decision
+  ↓
+Drift Approval Gate
+  ↓
+Rollback Decision
 ```
-O projeto demonstra uma arquitetura próxima de um ambiente enterprise real, com governança, rastreabilidade, separação entre `dev`, `acc` e `prod`, aprovação manual em produção, monitoramento de drift e automação com GitHub Actions e Databricks Asset Bundles.
+
+Principais componentes implementados:
+
+- Databricks Asset Bundles com targets `dev`, `acc` e `prod`;
+- Lakehouse com camadas Bronze, Silver, Gold e Feature Table;
+- Data Quality Gate com validações críticas antes do treinamento;
+- Feature Table formal no Unity Catalog com chave primária em `customer_id`;
+- integração com a área **AI/ML → Features** do Databricks;
+- treinamento multi-modelo para churn com Logistic Regression, Random Forest, Gradient Boosting, XGBoost e LightGBM;
+- seleção automática do melhor modelo priorizando F1-score, Recall e ROC AUC;
+- rastreamento de experimentos com MLflow;
+- registro do modelo no Unity Catalog Model Registry;
+- inferência em batch;
+- Model Serving REST com payloads de alto e baixo risco;
+- cliente de inferência Python com timeout ajustado para cold start/warm-up;
+- Champion/Challenger e Canary Deployment;
+- monitoramento de drift usando PSI;
+- decisão formal de retreinamento;
+- Drift Approval Gate com comportamento diferente para DEV/ACC e PROD;
+- aprovação manual em produção usando Delta Table;
+- Repair Run após aprovação;
+- Rollback Decision;
+- CI/CD com GitHub Actions integrado ao Databricks Bundle.
+
+Resultado validado:
+
+```text
+DEV  → execução automática via GitHub Actions
+ACC  → execução completa com sucesso via Databricks Bundle
+PROD → governança com Drift Approval Gate e aprovação manual
+```
+
+Esse projeto demonstra uma arquitetura MLOps próxima de um ambiente enterprise real, com rastreabilidade, governança, separação de ambientes, automação e controle de risco operacional.
+
+### Projetos bancários em Databricks
+
+#### Banking Credit Risk
+
+Repositório: <https://github.com/williamfleandro/databricks-banking-credit-risk>
+
+Projeto voltado à avaliação de risco de crédito bancário, estruturado como uma esteira de Machine Learning em Databricks. O repositório demonstra organização por ambientes, engenharia de dados, Feature Engineering, treinamento, avaliação, registro e governança de modelos.
+
+Principais capacidades demonstradas:
+
+- arquitetura Lakehouse com Delta Lake;
+- governança e rastreabilidade com Unity Catalog;
+- preparação de dados e atributos para risco de crédito;
+- treinamento e comparação de modelos de classificação;
+- rastreamento de experimentos com MLflow;
+- registro e versionamento de modelos;
+- automação com Databricks Asset Bundles;
+- separação de ambientes para evolução controlada;
+- documentação técnica orientada a portfólio.
+
+#### Banking Fraud Detection
+
+Repositório: <https://github.com/williamfleandro/databricks-banking-fraud-detection>
+
+Projeto MLOps completo para detecção de fraudes em transações bancárias, validado de ponta a ponta nos ambientes `DEV`, `ACC` e `PROD`.
+
+Fluxo implementado:
+
+```text
+Kaggle Dataset
+  ↓
+Unity Catalog Volume
+  ↓
+Bronze
+  ↓
+Silver
+  ↓
+Data Quality / Quarantine
+  ↓
+Gold
+  ↓
+Feature Engineering
+  ↓
+Feature Table no Unity Catalog
+  ↓
+Treinamento multi-modelo
+  ↓
+MLflow Tracking
+  ↓
+Seleção do melhor modelo
+  ↓
+Batch Inference
+  ↓
+Model Registry
+  ↓
+Model Serving REST
+  ↓
+DEV → ACC → PROD
+```
+
+Principais resultados:
+
+- melhor modelo: `RandomForest`;
+- F1-score: `0.824242`;
+- recall: `0.715789`;
+- `284.807` registros ingeridos na camada Bronze;
+- `283.726` registros processados nas camadas Silver, Gold e Feature Table;
+- Data Quality concluído com `0` registros em quarentena;
+- monitoramento com `34 OK`, `0 WARNING` e `0 DRIFT`;
+- batch inference com `283.726` predições;
+- endpoints de Model Serving validados em DEV, ACC e PROD;
+- API REST de produção validada com HTTP `200`;
+- wrapper MLflow PyFunc retornando `prediction`, `probability_fraud` e `risk_level`;
+- CI/CD e deployment com Databricks Asset Bundles.
+
+Exemplo de resposta da API em produção:
+
+```json
+{
+  "predictions": [
+    {
+      "prediction": 1,
+      "probability_fraud": 0.7916666666666666,
+      "risk_level": "high"
+    }
+  ]
+}
+```
+
+Esses dois projetos complementam o Databricks MLOps Churn Lab e ampliam o portfólio com casos bancários de alto valor: **risco de crédito** e **prevenção a fraudes**.
+
+### Projeto complementar de MLOps
+
+O projeto **MLOps Apartment Price Prediction** continua sendo uma referência complementar no portfólio, demonstrando um ciclo completo de Machine Learning com stack open source:
+
+```text
+Train → Register → Deploy → Monitor → Detect Drift → Retrain → Promote → Reload
+```
+
+Principais componentes:
+
+- treinamento de modelo preditivo com Scikit-learn;
+- rastreamento de experimentos e registry com MLflow;
+- armazenamento de artefatos no MinIO;
+- API de inferência com FastAPI;
+- frontend em React;
+- containerização com Docker;
+- deploy em Kubernetes;
+- GitOps com Argo CD;
+- rollout canário com Argo Rollouts;
+- métricas com Prometheus;
+- dashboards no Grafana;
+- detecção de drift com Evidently AI;
+- estratégia de retreinamento e promoção de novo modelo `champion`.
+
+Repositório: <https://github.com/williamfleandro/portifolio_mlops>
+
 ---
-Stack técnica
-Engenharia de IA e LLMOps
-LangChain
-LangSmith
-Retrieval-Augmented Generation
-Embeddings e busca vetorial
-PostgreSQL e pgvector
-Prompt Engineering
-Avaliação de prompts
-Agentes e Custom Skills
-OpenAI e Google Gemini
-FastAPI
-Machine Learning e MLOps
-Python e SQL
-Pandas, NumPy e Scikit-learn
-Databricks e Delta Lake
-Unity Catalog e Feature Store
-MLflow Tracking e Model Registry
-Databricks Model Serving
-DVC
-Evidently AI
-NannyML
-GitHub Actions
-Databricks Asset Bundles
-Engenharia de software
-TypeScript e JavaScript
-Next.js e React
-NestJS e Node.js
-Flask
-PostgreSQL e SQLite
-REST APIs
-JWT e Argon2
-Docker e Docker Compose
-Kubernetes e OpenShift
-Jest, Vitest, Playwright e pytest
-Arquitetura MVC, BFF e C4
-Dados, streaming e observabilidade
-Apache Kafka e IBM Event Streams
-Elasticsearch e OpenSearch
-Logstash e Beats
-OpenTelemetry
-Prometheus e Grafana
-Kibana e OpenSearch Dashboards
-Graylog
-Cloud e plataformas
-AWS
-Microsoft Azure
-Google Cloud Platform
-Databricks
-Argo CD e Argo Rollouts
-Power BI e Looker Studio
+
+## Visão de arquitetura do portfólio
+
+```text
+Portfólio Técnico
+│
+├── Ciência de Dados e Machine Learning
+│   ├── Modelagem estatística
+│   ├── Regressão, classificação e validação
+│   ├── Risco de crédito bancário
+│   ├── Detecção de fraude bancária
+│   ├── Feature engineering
+│   └── Avaliação de modelos
+│
+├── MLOps
+│   ├── Databricks Asset Bundles
+│   ├── Unity Catalog / Feature Store
+│   ├── MLflow Registry
+│   ├── Model Serving REST
+│   ├── FastAPI Serving
+│   ├── Docker / Kubernetes
+│   ├── GitHub Actions
+│   ├── Argo CD / Argo Rollouts
+│   ├── Monitoramento
+│   ├── Drift detection
+│   └── Approval Gates
+│
+├── LLMOps e Agentic Engineering
+│   ├── Agentes controlados
+│   ├── Quality gates
+│   ├── Testes automatizados
+│   └── APIs educacionais
+│
+├── Observabilidade e Dados em Tempo Real
+│   ├── Kafka / IBM Event Streams
+│   ├── OpenTelemetry
+│   ├── Elasticsearch / OpenSearch
+│   ├── Prometheus / Grafana
+│   └── Graylog
+│
+└── Visão Computacional
+    ├── CNNs
+    ├── Vision Transformers
+    ├── YOLO11
+    └── Explainable AI
+```
+
 ---
-Destaque para recrutadores
-Para avaliação técnica, recomenda-se iniciar pelos seguintes projetos:
-Databricks MLOps Churn Lab
-StreamTube — Greenfield Project
-RAG com LangChain, PostgreSQL e pgvector
-Skill de Auditoria e Refatoração Arquitetural
-Otimização e Avaliação de Prompts
-Design Docs Gerados por IA
-Databricks Banking Fraud Detection
+
+## Estrutura recomendada deste repositório
+
+```text
+Portifolio/
+│
+├── README.md
+│
+├── docs/
+│   ├── recruiter-summary.md
+│   ├── arquitetura-portfolio.md
+│   └── roadmap.md
+│
+├── projects/
+│   ├── 01-databricks-mlops-churn-lab/
+│   ├── 02-databricks-banking-credit-risk/
+│   ├── 03-databricks-banking-fraud-detection/
+│   ├── 04-mlops-apartment-price/
+│   ├── 05-llmops-agentic-engineering/
+│   ├── 06-computer-vision-ewaste-yolo11/
+│   ├── 07-kafka-observability-opensearch/
+│   ├── 08-graylog-opensearch-lab/
+│   ├── 09-databricks-gcp-analytics/
+│   └── 10-dvc-data-versioning/
+│
+├── archive/
+│   ├── academic-neural-networks/
+│   ├── legacy-notebooks/
+│   └── experimental-projects/
+│
+├── assets/
+│   ├── architecture/
+│   └── screenshots/
+│
+└── templates/
+    └── project-readme-template.md
+```
+
 ---
-Contato
-Email: williamfleandro@gmail.com
-LinkedIn: https://www.linkedin.com/in/william-ferreira-leandro-5b75a925/
-GitHub: https://github.com/williamfleandro
+
+## Stack técnica
+
+### Linguagens e análise de dados
+
+- Python
+- SQL
+- R
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Estatística aplicada
+- Modelagem preditiva
+- Análise exploratória de dados
+
+### Machine Learning, Deep Learning e IA
+
+- Scikit-learn
+- TensorFlow
+- Keras
+- PyTorch
+- YOLO / Ultralytics
+- Vision Transformers
+- CNNs
+- Explainable AI
+- LLMOps
+- Agentic Engineering
+
+### MLOps e engenharia de software para modelos
+
+- Databricks
+- Databricks Asset Bundles
+- Unity Catalog
+- Feature Store
+- MLflow
+- MLflow Model Registry
+- Databricks Model Serving
+- DVC
+- FastAPI
+- Docker
+- Kubernetes
+- OpenShift
+- Argo CD
+- Argo Rollouts
+- GitHub Actions
+- Databricks Workflows
+- Azure DevOps
+- Evidently AI
+
+### Dados, mensageria e observabilidade
+
+- Apache Kafka
+- IBM Event Streams
+- Elasticsearch
+- OpenSearch
+- Graylog
+- OpenTelemetry
+- Prometheus
+- Grafana
+- Kibana
+- Logstash
+- Filebeat
+
+### Cloud, BI e analytics
+
+- GCP
+- AWS
+- Azure
+- Databricks
+- Power BI
+- Looker Studio
+- Kibana Dashboards
+- OpenSearch Dashboards
+- Grafana Dashboards
+
+---
+
+## Como navegar pelo portfólio
+
+Para recrutadores e gestores técnicos:
+
+1. Comece pelo projeto [Databricks MLOps Churn Lab](https://github.com/williamfleandro/databricks-mlops-churn-lab), que demonstra Lakehouse, Feature Store, MLflow, Model Serving, Drift Monitoring, Approval Gate e CI/CD.
+2. Analise o projeto [Databricks Banking Fraud Detection](https://github.com/williamfleandro/databricks-banking-fraud-detection), validado em DEV, ACC e PROD com Data Quality, Feature Table, drift, batch inference e API REST.
+3. Consulte o projeto [Databricks Banking Credit Risk](https://github.com/williamfleandro/databricks-banking-credit-risk), voltado à modelagem e governança de risco de crédito bancário.
+4. Em seguida, veja o projeto [MLOps Apartment Price Prediction](https://github.com/williamfleandro/portifolio_mlops), com stack open source usando FastAPI, Kubernetes, Argo CD, Prometheus e Grafana.
+5. Depois, consulte o laboratório [LLMOps Agentic Engineering Lab](https://github.com/williamfleandro/llmops-agentic-engineering-lab).
+6. Consulte os projetos de Visão Computacional, Kafka, Observabilidade e OpenSearch conforme o foco da vaga.
+7. Acesse a pasta `archive/` apenas para projetos acadêmicos antigos, estudos e experimentos.
+
+---
+
+## Objetivo profissional do portfólio
+
+Este portfólio foi organizado para demonstrar capacidade prática em:
+
+- transformar dados em modelos analíticos e preditivos;
+- publicar modelos em APIs, Model Serving e ambientes produtivos;
+- aplicar práticas de MLOps, Feature Store, CI/CD e observabilidade;
+- construir pipelines Lakehouse, batch e arquiteturas orientadas a eventos;
+- monitorar modelos, drift, aplicações e infraestrutura;
+- implementar governança com approval gates, ambientes separados e rastreabilidade;
+- documentar soluções técnicas de forma clara, reprodutível e profissional.
+
+---
+
+## Destaque para recrutadores
+
+Projetos recomendados para avaliação técnica:
+
+1. **Databricks MLOps Churn Lab**  
+   Repositório: <https://github.com/williamfleandro/databricks-mlops-churn-lab>
+2. **Databricks Banking Fraud Detection**  
+   Repositório: <https://github.com/williamfleandro/databricks-banking-fraud-detection>
+3. **Databricks Banking Credit Risk**  
+   Repositório: <https://github.com/williamfleandro/databricks-banking-credit-risk>
+
+### Databricks MLOps Churn Lab
+
+Este projeto demonstra uma arquitetura MLOps production-like com:
+
+- Databricks Lakehouse;
+- Unity Catalog;
+- Feature Table formal;
+- MLflow Tracking;
+- Model Registry;
+- Model Serving REST;
+- Drift Monitoring;
+- Retraining Decision;
+- Drift Approval Gate;
+- Champion/Challenger;
+- Canary Deployment;
+- GitHub Actions CI/CD;
+- Databricks Asset Bundles;
+- separação de ambientes `dev`, `acc` e `prod`.
+
+Resumo profissional:
+
+> Implementei uma arquitetura MLOps production-like em Databricks, usando Lakehouse com camadas Bronze, Silver e Gold, Data Quality Gate, Feature Table formal no Unity Catalog, treinamento multi-modelo com Logistic Regression, Random Forest, Gradient Boosting, XGBoost e LightGBM, rastreamento com MLflow, registro de modelo no Unity Catalog Model Registry, inferência batch, Model Serving REST, Champion/Challenger, Canary Deployment, Drift Monitoring com PSI, decisão de retreinamento, Drift Approval Gate com aprovação manual em produção e CI/CD com GitHub Actions e Databricks Asset Bundles.
+
+### Databricks Banking Fraud Detection
+
+Este projeto demonstra uma solução MLOps bancária end-to-end com:
+
+- Lakehouse em Bronze, Silver e Gold;
+- Data Quality e quarentena;
+- Feature Table no Unity Catalog;
+- treinamento e seleção multi-modelo;
+- MLflow Tracking e Model Registry;
+- batch inference;
+- Drift Monitoring e decisão de retreinamento;
+- Champion/Challenger e rollback;
+- Model Serving REST;
+- validação completa em DEV, ACC e PROD;
+- endpoint de produção respondendo HTTP `200`.
+
+Resumo profissional:
+
+> Implementei uma plataforma MLOps para detecção de fraude bancária em Databricks, cobrindo ingestão, qualidade, Feature Engineering, treinamento multi-modelo, MLflow, Model Registry, batch inference, monitoramento de drift e Model Serving REST. A solução foi promovida e validada nos ambientes DEV, ACC e PROD, com API de produção operacional e rastreabilidade completa via Unity Catalog e Databricks Asset Bundles.
+
+### Databricks Banking Credit Risk
+
+Este projeto demonstra um caso bancário de avaliação de risco de crédito com:
+
+- preparação e transformação de dados;
+- engenharia de atributos;
+- modelagem estatística e Machine Learning;
+- rastreamento com MLflow;
+- governança de artefatos;
+- organização por ambientes;
+- automação de deployment com Databricks Asset Bundles.
+
+Resumo profissional:
+
+> Desenvolvi uma esteira de Machine Learning para risco de crédito bancário em Databricks, aplicando arquitetura Lakehouse, Feature Engineering, treinamento e avaliação de modelos, MLflow e governança com Unity Catalog, com foco em reprodutibilidade, automação e evolução controlada entre ambientes.
+
+---
+
+## Contato
+
+- Email: williamfleandro@gmail.com
+- LinkedIn: https://www.linkedin.com/in/william-ferreira-leandro-5b75a925/
+- GitHub: https://github.com/williamfleandro
